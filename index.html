@@ -16,17 +16,26 @@
       <!-- heading -->
       <div class="bg">
         <div class="heading">
-          <img src="./image/white-logo.png" alt="" srcset="" class="logo" />
-          <div class="list">
-            <h5>Home</h5>
-            <h5>About Us</h5>
-            <h5>Pages</h5>
-            <h5>Agent</h5>
-            <h5>Blog</h5>
-            <h5>Subscribe</h5>
+          <div class="logo-heading">
+            <img src="./image/white-logo.png" alt="" srcset="" class="logo" />
+            <div class="toggle" id="toggle">
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            </div>
+          </div>
+
+          <div class="header-section" id="head__section">
+            <section class="nav__section">
+              <li><a href="#"> Home</a></li>
+              <li><a href="#"> About Us</a></li>
+              <li><a href="#"> Pages</a></li>
+              <li><a href="#"> Agent</a></li>
+              <li><a href="#"> Blog</a></li>
+              <li><a href="#"> Subscribe</a></li>
+            </section>
           </div>
           <button class="talk01">Let's Talk</button>
         </div>
+
         <!-- first -->
         <div class="first">
           <div class="left">
@@ -41,8 +50,9 @@
             </p>
             <div class="section">
               <img src="./crop/mail.png" alt="" srcset="" class="mail" />
-              <h5>Enter your email address</h5>
               <div class="button02">
+                <input placeholder="Enter your email address" />
+
                 <button class="talk02">Let's Talk</button>
               </div>
             </div>
@@ -252,4 +262,15 @@
       </div>
     </div>
   </body>
+
+  <script>
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click", () => {
+      const setDisplayValue =
+        document.getElementById("head__section").style.display === "block"
+          ? "none"
+          : "block";
+      document.getElementById("head__section").style.display = setDisplayValue;
+    });
+  </script>
 </html>

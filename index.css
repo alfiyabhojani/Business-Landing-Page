@@ -1,538 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-}
-/* .container{
-    padding: 10px;
-} */
-/* .first {
-  position: relative;
-  background-color: #758283;
-  width: 1900px;
-  height: 800px;
-}
-
-.logo {
-  position: absolute;
-  top: 20px;
-  left: 50px;
-}
-.list {
-  display: flex;
-  position: absolute;
-  top: px;
-  right: 350px;
-  color: white;
-}
-.list h5 {
-  padding: 30px;
-  font-size: 30px;
-  font-weight: 700;
-}
-.talk01 {
-  height: 50px;
-  width: 200px;
-  top: 20px;
-  position: absolute;
-  right: 30px;
-  background-color: #758283;
-  color: white;
-  font-size: 20px;
-  border: 1px solid white;
-}
-.grp1 {
-  height: 600px;
-  width: 600px;
-  position: absolute;
-  left: 150px;
-  top: 150px;
-}
-.right {
-  position: relative;
-  right: 0;
-  top: 200px;
-}
-.right h1 {
-  right: 350px;
-  font-size: 90px;
-  bottom: 8px;
-  color: white;
-  position: absolute;
-  top: 7px;
-}
-.right p {
-  position: absolute;
-  top: 330px;
-  color: white;
-  right: 370px;
-  font-size: 30px;
-  line-height: 40px;
-}
-.back {
-  position: absolute;
-  background-color: white;
-  height: 100px;
-  width: 650px;
-  right: 370px;
-  top: 470px;
-}
-.right h5 {
-  position: absolute;
-  right: 690px;
-  top: 500px;
-  font-size: 25px;
-  font-weight: 200;
-  color: #758283;
-}
-.mail {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 490px;
-  left: 900px;
-}
-.talk02 {
-  position: absolute;
-  top: 490px;
-  right: 400px;
-  width: 170px;
-  font-size: 19px;
-  background-color: #1c8d7c;
-  color: white;
-  border: none;
-  height: 50px;
-}
-.second {
-  position: relative;
-}
-.second h1 {
-  top: 80px;
-  position: absolute;
-  left: 500px;
-  font-size: 60px;
-  text-align: center;
-}
-.num {
-  position: relative;
-  display: flex;
-}
-.num1 {
-  position: absolute;
-  left: 330px;
-  top: 250px;
-  font-size: 60px;
-}
-.rate1 {
-  position: absolute;
-  left: 280px;
-  font-size: 40px;
-  top: 330px;
-  font-weight: 200;
-}
-.num2 {
-  position: absolute;
-  left: 680px;
-  top: 250px;
-  font-size: 60px;
-}
-.rate2 {
-  position: absolute;
-  left: 620px;
-  font-size: 40px;
-  top: 330px;
-  font-weight: 200;
-}
-.num3 {
-  position: absolute;
-  right: 780px;
-  top: 250px;
-  font-size: 60px;
-}
-.rate3 {
-  position: absolute;
-  right: 690px;
-  font-size: 40px;
-  top: 330px;
-  font-weight: 200;
-}
-.num4 {
-  position: absolute;
-  right: 380px;
-  top: 250px;
-  font-size: 60px;
-}
-.rate4 {
-  position: absolute;
-  right: 310px;
-  font-size: 40px;
-  top: 330px;
-  font-weight: 200;
-}
-.rate {
-  position: relative;
-}
-.grp2 {
-  width: 1300px;
-  top: 430px;
-  height: 550px;
-  position: absolute;
-  left: 300px;
-}
-.third {
-  position: relative;
-  top: 900px;
-}
-.h1 {
-  position: absolute;
-  top: 100px;
-  left: 570px;
-  font-size: 90px;
-  text-align: center;
-}
-.effect {
-  position: absolute;
-  top: 350px;
-  left: 70px;
-  font-size: 60px;
-}
-.third-left p {
-  position: absolute;
-  color: #758283;
-  top: 515px;
-  font-size: 30px;
-  left: 70px;
-  line-height: 40px;
-}
-.talk03 {
-  position: absolute;
-  top: 690px;
-  left: 70px;
-  width: 250px;
-  font-size: 25px;
-  background-color: #1c8d7c;
-  color: white;
-  border: none;
-  height: 50px;
-}
-.third-right {
-  position: absolute;
-  width: 600px;
-  height: 700px;
-  right: 0;
-  top: 250px;
-}
-.fourth {
-  position: relative;
-  top: 1700px;
-}
-.fourth h1 {
-  position: absolute;
-  top: 250px;
-  right: 200px;
-  font-size: 65px;
-}
-.fourth p {
-  position: absolute;
-  top: 500px;
-  right: 170px;
-  color: #758283;
-  font-size: 33px;
-  line-height: 40px;
-}
-.talk04 {
-  position: absolute;
-  top: 650px;
-  right: 620px;
-  width: 250px;
-  font-size: 25px;
-  background-color: #1c8d7c;
-  color: white;
-  border: none;
-  height: 50px;
-}
-.indi2 {
-  width: 700px;
-  height: 600px;
-  position: absolute;
-  top: 180px;
-  left: 140px;
-}
-.fifth {
-  position: relative;
-  top: 2500px;
-}
-.fifth h1 {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-  font-size: 65px;
-}
-.fifth p {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  color: #758283;
-  font-size: 33px;
-  line-height: 40px;
-}
-.talk05 {
-  position: absolute;
-  top: 430px;
-  left: 100px;
-  width: 250px;
-  font-size: 25px;
-  background-color: #1c8d7c;
-  color: white;
-  border: none;
-  height: 50px;
-}
-.indi3 {
-  width: 700px;
-  height: 600px;
-  position: absolute;
-  top: 0;
-  right: 150px;
-}
-.sixth {
-  position: relative;
-  top: 3000px;
-}
-.sixth h1 {
-  position: absolute;
-  top: 150px;
-  left: 100px;
-  font-size: 70px;
-}
-.sixth p {
-  position: absolute;
-  top: 170px;
-  right: 300px;
-  color: #758283;
-  font-size: 30px;
-  font-weight: 200;
-  line-height: 40px;
-}
-.indi4 {
-  width: 400px;
-  height: 500px;
-  position: absolute;
-  top: 370px;
-  left: 100px;
-}
-.amera {
-  position: absolute;
-  top: 890px;
-  left: 100px;
-  font-size: 30px;
-}
-.intro {
-  position: absolute;
-  top: 940px;
-  color: #758283;
-  left: 100px;
-  font-size: 23px;
-}
-.indi5 {
-  width: 400px;
-  height: 500px;
-  position: absolute;
-  right: 800px;
-  top: 370px;
-}
-.lucas {
-  position: absolute;
-  top: 890px;
-  left: 705px;
-  font-size: 30px;
-}
-.start {
-  position: absolute;
-  top: 940px;
-  color: #758283;
-  left: 705px;
-  font-size: 23px;
-}
-.indi1 {
-  width: 400px;
-  height: 500px;
-  position: absolute;
-  right: 200px;
-  top: 360px;
-}
-.leny {
-  position: absolute;
-  top: 890px;
-  right: 330px;
-  font-size: 30px;
-}
-.pro {
-  position: absolute;
-  top: 940px;
-  color: #758283;
-  right: 170px;
-  font-size: 23px;
-}
-.see {
-  position: absolute;
-  top: 4850px;
-  left: 800px;
-  width: 250px;
-  font-size: 25px;
-  background-color: #1c8d7c;
-  color: white;
-  border: none;
-  height: 50px;
-}
-.seventh {
-  position: relative;
-  top: 4200px;
-  background-color: #242b2e;
-  width: 1900px;
-  height: 500px;
-}
-.dot {
-  position: relative;
-}
-.dot1 {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50px;
-  right: 550px;
-}
-.crop1 {
-  position: absolute;
-  top: 50px;
-  right: 550px;
-}
-.dot2 {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50px;
-  right: 450px;
-}
-.dot3 {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50px;
-  right: 350px;
-}
-.dot4 {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50px;
-  right: 250px;
-}
-.dot5 {
-  height: 50px;
-  width: 50px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50px;
-  right: 150px;
-}
-.logo02 {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-}
-.vl {
-  border-left: 3px solid white;
-  height: 1500px;
-  transform: rotate(90deg);
-  position: absolute;
-  left: 915px;
-  bottom: -398px;
-}
-.product {
-  list-style-type: none;
-  position: absolute;
-  top: 200px;
-  color: white;
-  left: 100px;
-  font-size: 30px;
-  line-height: 50px;
-  /* color: white; 
-}
-.product h5 {
-  font-size: 45px;
-  bottom: 15px;
-  position: relative;
-}
-.top {
-  list-style-type: none;
-  position: absolute;
-  color: white;
-  top: 200px;
-  left: 500px;
-  font-size: 30px;
-  line-height: 50px;
-}
-.top h5 {
-  font-size: 45px;
-  bottom: 15px;
-  position: relative;
-}
-.resource {
-  list-style-type: none;
-  position: absolute;
-  color: white;
-  top: 200px;
-  left: 900px;
-  font-size: 30px;
-  line-height: 50px;
-}
-.resource h5 {
-  font-size: 45px;
-  bottom: 15px;
-  position: relative;
-}
-.comp {
-  list-style-type: none;
-  position: absolute;
-  color: white;
-  top: 200px;
-  right: 500px;
-  font-size: 30px;
-  line-height: 50px;
-}
-.comp h5 {
-  font-size: 45px;
-  bottom: 15px;
-  position: relative;
-}
-.fav {
-  list-style-type: none;
-  position: absolute;
-  top: 200px;
-  right: 100px;
-  font-size: 30px;
-  line-height: 50px;
-  color: white;
-}
-.fav h5 {
-  font-size: 45px;
-  bottom: 15px;
-  position: relative;
-}*/
-
 * {
   margin: 0;
   padding: 0;
@@ -549,13 +14,21 @@
   margin-top: 20px;
   margin-left: 50px;
 }
-.list {
+.logo-heading {
   display: flex;
 }
-.list h5 {
+.nav__section {
+  display: flex;
+}
+.nav__section li {
   margin: 30px 40px;
   font-weight: 300;
   font-size: 20px;
+  list-style: none;
+}
+.nav__section li a {
+  text-decoration: none;
+  color: white;
 }
 .talk01 {
   height: 50px;
@@ -568,6 +41,41 @@
   border: 1px solid white;
   border-radius: 5px;
   font-weight: 700;
+}
+.toggle {
+  display: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 35px;
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    margin-left: 20px;
+    width: 71px;
+    height: 31px;
+    margin-top: 15px;
+  }
+  .bg {
+    padding-bottom: 5px;
+  }
+  .nav__section {
+    display: block;
+  }
+  .nav__section li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .talk01 {
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .toggle {
+    display: block;
+  }
 }
 .first {
   display: flex;
@@ -594,14 +102,17 @@
   width: 550px;
   height: 70px;
 }
-.section h5 {
+input {
   color: gray;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-size: 20px;
+  border: none;
 }
 .button02 {
-  padding-left: 100px;
-  margin-top: 10px;
+  padding-left: 50px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 .talk02 {
   width: 150px;
@@ -616,6 +127,53 @@
   width: 50px;
   height: 50px;
 }
+@media only screen and (max-width: 480px) {
+  .first {
+    display: block;
+  }
+  .grp1 {
+    height: 100%;
+    width: 100%;
+  }
+  .right h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .right p {
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .section {
+    width: 100%;
+    height: 40px;
+  }
+  .section p {
+    font-size: 10px;
+  }
+  .button02 {
+    padding-left: 0px;
+    display: block;
+  }
+  input {
+    font-size: 15px;
+  }
+  .mail {
+    height: 50%;
+    padding-top: 5px;
+    border: none;
+  }
+  .talk02 {
+    margin-left: 40px;
+    width: 90px;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 25px;
+  }
+}
+
+/* second */
 .second {
   margin-top: 100px;
 }
@@ -643,10 +201,32 @@
   margin-left: 180px;
 }
 .grp2 {
-  width: 1300px;
-  margin: 100px;
-  height: 550px;
+  width: 80%;
+  margin: auto 50px;
+  height: 80%;
 }
+@media only screen and (max-width: 480px) {
+  .second {
+    margin-top: auto;
+  }
+  .second h1 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .num {
+    display: block;
+  }
+  .image {
+    margin-left: 30px;
+  }
+  .grp2 {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+  }
+}
+
+/* third */
 .third h1 {
   text-align: center;
   font-size: 70px;
@@ -680,6 +260,41 @@
   width: 600px;
   height: 700px;
 }
+@media only screen and (max-width: 480px) {
+  .third h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .third-section {
+    display: block;
+    margin-top: 10px;
+  }
+  .third-left h2 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .third-left p {
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  .talk03 {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .indi1 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+  }
+}
+
+/* fourth */
 .fourth {
   display: flex;
   justify-content: space-around;
@@ -708,6 +323,38 @@
   font-size: 20px;
   margin-top: 20px;
 }
+@media only screen and (max-width: 480px) {
+  .fourth {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .fourth-right h1 {
+    font-size: 29px;
+    margin-left: 20px;
+  }
+  .fourth-right p {
+    line-height: normal;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+  .talk04 {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .indi2 {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 20px;
+    height: 100%;
+  }
+}
+
+/* fifth */
 .fifth {
   display: flex;
   justify-content: space-around;
@@ -736,6 +383,36 @@
   width: 700px;
   height: 600px;
 }
+@media only screen and (max-width: 480px) {
+  .fifth {
+    display: block;
+
+    margin-top: 20px;
+  }
+  .fifth-left h1 {
+    font-size: 29px;
+    margin-left: 20px;
+  }
+  .fifth-left p {
+    line-height: normal;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+  }
+  .talk05 {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .indi3 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+  }
+}
 .sixth-a {
   display: flex;
   justify-content: space-evenly;
@@ -749,6 +426,21 @@
   line-height: 40px;
   font-size: 30px;
   margin-top: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .sixth-a {
+    display: block;
+    margin-top: 20px;
+  }
+  .sixth-a h1 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .sixth-a p {
+    line-height: normal;
+    font-size: 15px;
+    padding-left: 10px;
+  }
 }
 .sixth-b {
   display: flex;
@@ -790,6 +482,44 @@
   height: 50px;
   opacity: 0.7;
 }
+@media only screen and (max-width: 480px) {
+  .sixth-b {
+    display: block;
+    margin: auto;
+  }
+  .indi4 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+  }
+  .indi5 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+  }
+  .indi6 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    height: 100%;
+  }
+  .text h5 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .text h6 {
+    font-size: 18px;
+    margin: auto 15px;
+  }
+  .more {
+    margin: 10px;
+  }
+}
+
+/* seventh */
 .seventh {
   background-color: #000;
   color: white;
@@ -832,7 +562,6 @@
   width: 50px;
   height: 50px;
   margin-top: 10px;
-
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -851,4 +580,26 @@
   margin: 15px 0;
   color: grey;
   font-size: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .seventh {
+    margin-top: auto;
+  }
+  .seven {
+    display: block;
+  }
+  .logo02 {
+    margin-left: 20px;
+    width: 30%;
+  }
+  .icon {
+    width: 30%;
+  }
+  .vl {
+    display: none;
+  }
+  .logoitem {
+    display: block;
+    margin-left: 20px;
+  }
 }
